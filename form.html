@@ -4,6 +4,8 @@
   </head>
   <body>
 
+  
+
 
 
 
@@ -11,13 +13,69 @@
 
     <form>
       
-        <label>Full Name :</label>
-        <input type="text">
-        <label for="pass">Enter Password</label>
-            <input type="password"  >
-        <label>gender</label>
-        <input type="radio" id="male">
-        <label for="male">male</label>
+      <label for ="fname">Full Name :</label>
+      <input type="text" id="fname" placeholder="Enter your name"/>
+
+      
+        
+      <br><br>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" placeholder="Enter your email"/>
+    
+      <br><br>
+      <label for="pass">your Password :</label>
+      <input type="password" id="pass" placeholder="enter your password"/>
+      <br><br>
+
+      <label for="dob">Enter your DOB :</label>
+      <input type="date" id="dob">
+      <br><br>
+
+      <label for="datetime">Enter your Birth Time:</label>
+      <input type="datetime-local" id="datetime">
+      <br><br>
+
+      <label for="resume">Upload your Resume:</label>
+      <input type="file" id="resume">
+      <br><br>
+
+      <label for="fav color">Your fav color code:</label>
+      <input type="color" id="favcolor">
+      <br><br>
+
+      <label for="month">Select a Month:</label>
+      <input type="month" id="month">
+      <br><br>
+
+      <label for="mobile ">Enter your No:</label>
+      <input type="number" id="mobile">
+      <br><br>
+
+      <label for="phone">Enter your phone No:</label>
+      <input type="tel" id="phone" pattern="[8-9]{1}-[0-9]{9}">
+      <br><br>
+
+      <input type="image" src="data:image/jpeg;base64,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" width="80px">
+      <br><br>
+
+      <label for="Gender">\Gender: </label>
+      <select id="Gender">
+        <option value="male">male</option>
+
+        <option value="female">female</option>
+        
+
+
+      </select>
+      <br><br>
+
+      
+      
+      
+
+    
+      <input type="submit" value="Login">
+      <br><br>
     
     
     
